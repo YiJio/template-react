@@ -1,0 +1,152 @@
+/* ==================================== */
+/*   T H E M E   S T Y L E S            */
+/* ==================================== */
+
+/* ------------------------------------ */
+/*   SHARED                             */
+/* ------------------------------------ */
+
+/* mostly for brand use,
+/* sometimes grays if dark/light are
+/* exactly the same */
+
+:root {
+	--text-brand:rgb(var(--color-brand-1));
+
+	--surface-brand:rgb(var(--color-brand-1));
+
+	--border-brand:rgb(var(--color-brand-1));
+}
+
+/* ------------------------------------ */
+/*   LIGHT THEME                        */
+/* ------------------------------------ */
+[data-theme=light], .theme--light {
+	/* COLORS --------------------------- */
+	/* brand */
+	--color-brand-0:0;
+	--color-brand-1:0;
+	--color-brand-2:0;
+	--color-brand-3:0;
+	--color-brand-4:0;
+	--color-brand-5:0;
+	--color-brand-6:0;
+	--color-brand-7:0;
+	--color-brand-8:0;
+	--color-brand-9:0;
+	--color-brand-10:0;
+	/* gray */
+	--color-gray-0:0;
+	--color-gray-1:0;
+	--color-gray-2:0;
+	--color-gray-3:0;
+	--color-gray-4:0;
+	--color-gray-5:0;
+	--color-gray-6:0;
+	--color-gray-7:0;
+	--color-gray-8:0;
+	--color-gray-9:0;
+	--color-gray-10:0;
+
+	/* SEMANTICS ------------------------ */
+	/* default: text */
+	--text-primary:var(--color-gray-11);
+	--text-secondary:var(--color-gray-10);
+	--text-tertiary:var(--color-gray-8);
+	--text-quaternary:var(--color-gray-7);
+	--text-link:var(--color-black);
+	/* default: surface */
+	--surface-frame:var(--color-gray-1);
+	--surface-primary:rgb(var(--color-white));
+	--surface-secondary:var(--color-gray-0);
+	--surface-tertiary:var(--color-gray-1);
+	--surface-skeleton-grad:var(--color-gray-0);
+	--surface-skeleton:var(--color-gray-2);
+	/* default: borders */
+	--border-primary:var(--color-gray-1);
+	--border-secondary:var(--color-gray-2);
+	--border-tertiary:var(--color-gray-4);
+	/* default: outlines */
+	/* default: shadows */
+	--shadow:#00000040 0 16px 20px -20px;	
+	/* other: scrollbar */
+	--scroll-thumb:var(--color-gray-3);
+	--scroll-track:var(--color-gray-0);
+}
+
+/* ------------------------------------ */
+/*   DARK THEME                         */
+/* ------------------------------------ */
+[data-theme=dark], .theme--dark {
+	/* COLORS --------------------------- */
+	/* brand */
+	--color-brand-0:0;
+	--color-brand-1:0;
+	--color-brand-2:0;
+	--color-brand-3:0;
+	--color-brand-4:0;
+	--color-brand-5:0;
+	--color-brand-6:0;
+	--color-brand-7:0;
+	--color-brand-8:0;
+	--color-brand-9:0;
+	--color-brand-10:0;
+	/* gray */
+	--color-gray-0:0;
+	--color-gray-1:0;
+	--color-gray-2:0;
+	--color-gray-3:0;
+	--color-gray-4:0;
+	--color-gray-5:0;
+	--color-gray-6:0;
+	--color-gray-7:0;
+	--color-gray-8:0;
+	--color-gray-9:0;
+	--color-gray-10:0;
+
+	/* SEMANTICS ------------------------ */
+	/* default: text */
+	--text-primary:var(--color-gray-11);
+	--text-secondary:var(--color-gray-10);
+	--text-tertiary:var(--color-gray-8);
+	--text-quaternary:var(--color-gray-7);
+	--text-link:var(--color-white);
+	/* default: surface */
+	--surface-frame:var(--color-gray-1);
+	--surface-primary:rgb(var(--color-white));
+	--surface-secondary:var(--color-gray-0);
+	--surface-tertiary:var(--color-gray-1);
+	--surface-skeleton-grad:var(--color-gray-0);
+	--surface-skeleton:var(--color-gray-2);
+	/* default: borders */
+	--border-primary:var(--color-gray-1);
+	--border-secondary:var(--color-gray-2);
+	--border-tertiary:var(--color-gray-4);
+	/* default: outlines */
+	/* default: shadows */
+	--shadow:#00000040 0 16px 20px -20px;	
+	/* other: scrollbar */
+	--scroll-thumb:var(--color-gray-3);
+	--scroll-track:var(--color-gray-0);
+}
+
+/* ------------------------------------ */
+/*   ??? THEME                          */
+/* ------------------------------------ */
+
+/* semantics may be different depending on the use of this theme
+/* whether it be an entire site theme or just within components  */
+
+[data-theme=], .theme-- {
+	/* COLORS --------------------------- */
+	/* ? */
+	/* ? */
+
+	/* SEMANTICS ------------------------ */
+	/* default: text */
+	/* default: surface */
+	/* default: borders */
+	/* default: outlines */
+	/* default: shadows */
+	/* other: scrollbar */
+}

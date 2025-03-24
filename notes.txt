@@ -1,0 +1,18 @@
+NOTES TO MYSELF FOR PROJECTS
+
+- EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init` AND `npm i`!!!
+
+- UPDATE react, react-router-dom, react-dom, etc. libaries to latest version if necessary.
+-- npm i <package>@latest
+
+- Delete `vercel.json` if NOT NEEDED.
+
+- Remove contexts/providers/stores/atoms directories if not using them for specific state management.
+
+- Fill out the fonts.css, root.css, theme.css.
+
+- Each component must be in their own FOLDER with `styles.css`!!!
+
+- Can remove any util in the utils directory if not needed.
+
+- After first commit to GitHub, add a LICENSE if possible and git pull on local.
