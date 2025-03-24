@@ -7,14 +7,14 @@ PREVIEW: [link]()
 
 * Framework: React + Vite
 * Notable libraries used
-** React Icons - explain here
-** ...
+* * React Icons - explain here
+* * ...
 * Services
-** ? - authentication
-** ? - storage
-** ? - database
-** ...
-(* Deployment: )
+* * ? - authentication
+* * ? - storage
+* * ? - database
+* * ...
+* (Deployment: )
 
 
 ## Overview

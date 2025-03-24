@@ -2,6 +2,8 @@ NOTES TO MYSELF FOR PROJECTS
 
 - EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init` AND `npm i`!!!
 
+- Uncomment from .gitignore.
+
 - UPDATE react, react-router-dom, react-dom, etc. libaries to latest version if necessary.
 -- npm i <package>@latest
 
