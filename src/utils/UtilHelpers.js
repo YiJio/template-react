@@ -1,13 +1,46 @@
+// may want to use lodash library package
+
 export const UtilHelpers = {
 	range(start, end) {
 		if (start === end) return [start];
 		return [start, ...this.range(start + 1, end)];
 	},
-	normalize(value, min, max) {
-		return (value - min) / (max - min);
+	normalize(val, min, max) {
+		return (val - min) / (max - min);
 	},
-	removeDuplicates(array) {
-		return [...new Set(array)];
+	randomNumber(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	},
+	removeDuplicates(arr) {
+		return [...new Set(arr)];
+	},
+	isArray(arr) {
+		return Array.isArray(arr);
+	},
+	isObject(obj) {
+		return typeof obj === 'object' && obj !== null;
+	},
+	isFunction(func) {
+		return typeof func === 'function';
+	},
+	isEmpty(val) {
+		return val === null || val == undefined || (typeof val === 'string' && val.trim() === '') || (this.isArray(val) && val.length === 0) || (typeof val === 'object' && Object.keys(val).length === 0);
+	},
+	deepClone(obj) {
+		return JSON.parse(JSON.stringify(obj));
+	},
+	mergeObjects(target, source) {
+		return Object.assign({}, target, source);
+	},
+	capitalize(str) {
+		return str.charAt(0).toUpperCase() + str.slice(1);
+	},
+	reverseString(str) {
+		return str.split('').reverse().join('');
+	},
+	camelCase(str) {
+		let result = str.toLowerCase();
+		return result.split(' ').reduce((s, c) => s + (c.charAt(0).toUpperCase() + c.slice(1)));
 	},
 	getFromIndex(array, fieldCheck, value, returnField = null) {
 		const index = array.findIndex((a) => a[fieldCheck] == value);

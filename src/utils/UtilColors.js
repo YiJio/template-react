@@ -1,3 +1,9 @@
+// expand on chroma-js OR
+// use chroma-js functions for better naming of functions OR
+// reduce package size and not use chroma-js
+
+// recheck the below sometime later
+ 
 export const UtilColors = {
 	getContrastingTextColor(color) {
 		if(!color) return '#000000';

@@ -2,6 +2,10 @@ NOTES TO MYSELF FOR PROJECTS
 
 - EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init` AND `npm i`!!!
 
+- Remove utility packages `date-fns` (along with UtilDatetime) or `chromajs` (along with UtilColors).
+
+- Can remove any util in the utils directory if not needed.
+
 - Uncomment from .gitignore.
 
 - UPDATE react, react-router-dom, react-dom, etc. libaries to latest version if necessary.
@@ -14,7 +18,5 @@ NOTES TO MYSELF FOR PROJECTS
 - Fill out the fonts.css, root.css, theme.css.
 
 - Each component must be in their own FOLDER with `styles.css`!!!
-
-- Can remove any util in the utils directory if not needed.
 
 - After first commit to GitHub, add a LICENSE if possible and git pull on local.

@@ -1,5 +1,7 @@
-// expand on date-fns
-// (or make functions that make more sense in terms of naming)
+// expand on date-fns OR
+// use date-fns functions for better naming of functions OR
+// reduce package size and not use date-fns
+
 // recheck the below sometime later
 
 export const UtilDatetime = {
