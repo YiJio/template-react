@@ -2,7 +2,7 @@ NOTES TO MYSELF FOR PROJECTS
 
 - EDIT THE PACKAGE.JSON FILE FIRST BEFORE RUNNING `npm init` AND `npm i`!!!
 
-- Remove utility packages `date-fns` (along with UtilDatetime) or `chromajs` (along with UtilColors).
+- Remove utility packages `date-fns` (along with DateUtil) or `chromajs` (along with ColorUtil).
 
 - Can remove any util in the utils directory if not needed.
 

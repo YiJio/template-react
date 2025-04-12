@@ -4,7 +4,7 @@
 
 // recheck the below sometime later
  
-export const UtilColors = {
+export const ColorUtil = {
 	getContrastingTextColor(color) {
 		if(!color) return '#000000';
 		let rgb = hexToRgb(color);

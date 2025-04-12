@@ -1,6 +1,6 @@
 // may want to use lodash library package
 
-export const UtilHelpers = {
+export const HelperUtil = {
 	range(start, end) {
 		if (start === end) return [start];
 		return [start, ...this.range(start + 1, end)];
@@ -31,16 +31,6 @@ export const UtilHelpers = {
 	},
 	mergeObjects(target, source) {
 		return Object.assign({}, target, source);
-	},
-	capitalize(str) {
-		return str.charAt(0).toUpperCase() + str.slice(1);
-	},
-	reverseString(str) {
-		return str.split('').reverse().join('');
-	},
-	camelCase(str) {
-		let result = str.toLowerCase();
-		return result.split(' ').reduce((s, c) => s + (c.charAt(0).toUpperCase() + c.slice(1)));
 	},
 	getFromIndex(array, fieldCheck, value, returnField = null) {
 		const index = array.findIndex((a) => a[fieldCheck] == value);

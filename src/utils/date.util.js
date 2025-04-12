@@ -4,7 +4,7 @@
 
 // recheck the below sometime later
 
-export const UtilDatetime = {
+export const DateUtil = {
 	isDateToday(date) {
 		const todayDate = new Date().setHours(0,0,0,0);
 		const theDate = new Date(date).setHours(0,0,0,0);
