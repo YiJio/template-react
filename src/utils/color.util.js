@@ -7,7 +7,7 @@
 export const ColorUtil = {
 	getContrastingTextColor(color) {
 		if(!color) return '#000000';
-		let rgb = hexToRgb(color);
+		let rgb = this.hexToRgb(color);
 		const luminance = 0.299 * rgb.r + 0.587 * rgb.g + 0.114 * rgb.b;
 		return luminance > 182 ? '#000000' : '#ffffff';
 	},

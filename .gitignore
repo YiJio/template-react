@@ -1,4 +1,16 @@
-# Logs
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# debug / logs
 logs
 *.log
 npm-debug.log*
@@ -7,13 +19,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# build
 dist
 dist-ssr
 *.local
-#.env
-#.vercel
-#notes.txt
+
+# env files (can opt-in for committing if needed)
+#.env*
 
 # Editor directories and files
 .vscode/*
@@ -25,3 +37,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# vercel
+#.vercel
+
+#notes.txt
